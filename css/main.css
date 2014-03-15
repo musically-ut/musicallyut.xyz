@@ -1,0 +1,209 @@
+/* Regular */
+@font-face {
+    font-family: 'League Gothic';
+    src: url('/fonts/leaguegothic-italic-webfont.eot');
+    src: url('/fonts/leaguegothic-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/leaguegothic-italic-webfont.woff') format('woff'),
+         url('/fonts/leaguegothic-italic-webfont.ttf') format('truetype'),
+         url('/fonts/leaguegothic-italic-webfont.svg#league_gothic_italicregular') format('svg');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+/* Italic */
+@font-face {
+    font-family: 'League Gothic';
+    src: url('/fonts/leaguegothic-regular-webfont.eot');
+    src: url('/fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/leaguegothic-regular-webfont.woff') format('woff'),
+         url('/fonts/leaguegothic-regular-webfont.ttf') format('truetype'),
+         url('/fonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Condensed */
+@font-face {
+    font-family: 'League Gothic Condensed';
+    src: url('/fonts/leaguegothic-condensed-regular-webfont.eot');
+    src: url('/fonts/leaguegothic-condensed-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/leaguegothic-condensed-regular-webfont.woff') format('woff'),
+         url('/fonts/leaguegothic-condensed-regular-webfont.ttf') format('truetype'),
+         url('/fonts/leaguegothic-condensed-regular-webfont.svg#league_gothic_condensed-Rg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Condensed Italic */
+@font-face {
+    font-family: 'League Gothic Condensed';
+    src: url('/fonts/leaguegothic-condensed-italic-webfont.eot');
+    src: url('/fonts/leaguegothic-condensed-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/leaguegothic-condensed-italic-webfont.woff') format('woff'),
+         url('/fonts/leaguegothic-condensed-italic-webfont.ttf') format('truetype'),
+         url('/fonts/leaguegothic-condensed-italic-webfont.svg#league_gothic_condensed_itaRg') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+/*=============================================================================
+ default font
+ */
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/*=============================================================================
+ a tags
+ */
+
+a {
+    position: relative;
+    text-decoration: none;
+    color: #adbeef;
+    border: 0px dotted currentColor;
+    border-bottom-width: 1px;
+}
+
+a {
+    transition: all 250ms;
+}
+
+a:hover {
+    left: .1em;
+    top: -.1em;
+    padding-bottom: .1em;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/*=============================================================================
+ Site container and media queries
+ */
+
+@media all and (min-width: 721px) {
+    #container {
+        margin: auto;
+        width: 95%;
+    }
+    
+    .site-header {
+        float: right;
+        width: 35%;
+    }
+    
+    .site-content {
+        width: 65%;
+    }
+}
+
+@media all and (max-width: 720px) {
+    #container {
+        width: 100%;
+    }
+    
+    .site-header {
+        width: 100%;
+    }
+    
+    .site-content {
+        width: 100%;
+    }
+}
+
+/*=============================================================================
+ Site header
+ */
+
+.site-header {
+    text-align: center;
+    padding: 2em;
+}
+
+.site-header img {
+    border-radius: 50%;
+    border: solid 3px #adbeef;
+}
+
+.site-header .image-container {
+    text-align: center;
+}
+
+.site-header .name {
+    font-family: 'League Gothic';
+    font-size: 72px;
+    color: #2a2e3c;
+}
+
+.site-header .name {
+    font-family: '';
+}
+
+.site-header .belief {
+    font-size: 2rem;
+    color: rgba(46, 66, 136, 0.29);
+    font-style: italic;
+    font-family: 'League Gothic';
+}
+
+.site-header .truth {
+    padding: 2em;
+    font-style: italic;
+    color: #777;
+    font-size: 0.75rem;
+}
+
+/*=============================================================================*/
+
+.leading-content {
+    padding: 2rem;
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*=============================================================================*/
+
+
+.follow-up-content {
+    padding: 2em;
+    border: 0px #ddd solid;
+    border-bottom-width: 1px;
+}
+
+.follow-up-content .header {
+    font-size: 5rem;
+    color: #deadbe;
+    font-family: 'League Gothic';
+}
+
+
+/*=============================================================================*/
+
+.projects {
+    margin-left: 1em;
+}
+
+.project-name {
+    color: #dba671;
+    font-size: 2.5rem;
+    font-family: 'League Gothic';
+}
+
+.project-name a {
+    font-size: 1rem;
+}
+
+.project-name a::after {
+    font-family: 'FontAwesome';
+    font-size: 0.75em;
+    content: ' \f08e';
+}
