@@ -1,4 +1,4 @@
-musicallyut.in
-==============
+Where I live & prosper
+===============
 
-[musically.ut](http://musicallyut.in).
+[musicallyut.in](http://musicallyut.in).
