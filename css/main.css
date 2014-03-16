@@ -65,12 +65,13 @@ body {
 a {
     position: relative;
     text-decoration: none;
-    color: #adbeef;
+    color: #8b98bc;
     border: 0px dotted currentColor;
     border-bottom-width: 1px;
 }
 
 a {
+    -webkit-transition: all 250ms;
     transition: all 250ms;
 }
 
@@ -81,6 +82,8 @@ a:hover {
 }
 
 * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -174,9 +177,10 @@ a:hover {
 
 
 .follow-up-content {
-    padding: 2em;
+    padding: 1em;
+    margin: 1em;
     border: 0px #ddd solid;
-    border-bottom-width: 1px;
+    border-bottom-width: 0px;
 }
 
 .follow-up-content .header {
@@ -206,4 +210,12 @@ a:hover {
     font-family: 'FontAwesome';
     font-size: 0.75em;
     content: ' \f08e';
+}
+
+
+/*=============================================================================*/
+
+.places .item {
+    font-size: 1.25rem;
+    margin-left: 1em;
 }
