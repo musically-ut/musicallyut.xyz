@@ -51,8 +51,14 @@
 
 
 /*=============================================================================
- default font
+ defaults
  */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'Lato', sans-serif;
@@ -79,12 +85,6 @@ a:hover {
     left: .1em;
     top: -.1em;
     padding-bottom: .1em;
-}
-
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
 }
 
 
