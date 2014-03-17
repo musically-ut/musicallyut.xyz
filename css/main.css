@@ -79,6 +79,8 @@ a {
 a {
     -webkit-transition: all 250ms;
     transition: all 250ms;
+    left: 0;
+    top: 0;
 }
 
 a:hover {
@@ -144,10 +146,6 @@ a:hover {
     font-family: 'League Gothic';
     font-size: 72px;
     color: #2a2e3c;
-}
-
-.site-header .name {
-    font-family: '';
 }
 
 .site-header .belief {
