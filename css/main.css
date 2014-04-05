@@ -217,3 +217,22 @@ a:hover {
     font-size: 1.25rem;
     margin-left: 1em;
 }
+
+
+/*=============================================================================
+ * Site footer
+ */
+.site-footer {
+    margin-top: 1em;
+    border-top: dashed 1px #8b98bc;
+}
+
+.site-footer .left {
+    float: left;
+    margin-left: 1em;
+}
+
+.site-footer .right {
+    float: right;
+    margin-right: 1em;
+}
