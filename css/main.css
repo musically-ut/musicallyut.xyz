@@ -218,6 +218,9 @@ a:hover {
     margin-left: 1em;
 }
 
+.project-desc .details-list {
+    list-style: none;
+}
 
 /*=============================================================================
  * Site footer
