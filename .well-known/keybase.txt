@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/musicallyut
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://musicallyut.in
+  * I am musicallyut (https://keybase.io/musicallyut) on keybase.
+  * I have a public key with fingerprint 8709 ADBA 5F02 32DF 0378  6521 88FC 244A C09F F3C1
+
+To claim this, I am signing this object:
+
+{
+    body: {
+        key: {
+            fingerprint: 8709adba5f0232df0378652188fc244ac09ff3c1,
+            host: keybase.io,
+            key_id: 88fc244ac09ff3c1,
+            kid: 01018bedeea5554e41387e5a42829a54b82e11125089e79b766d10822a59f016a5430a,
+            uid: aa78837c108cf9e19af711656df84e00,
+            username: musicallyut
+        },
+        service: {
+            hostname: musicallyut.in,
+            protocol: http:
+        },
+        type: web_service_binding,
+        version: 1
+    },
+    ctime: 1423745893,
+    expire_in: 157680000,
+    prev: null,
+    seqno: 1,
+    tag: signature
+}
+
+which yields the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.1
+Comment: https://keybase.io/crypto
+
+yMHwAnicZZFbSBRRGMd30zSNBSmoBC0aKQxWnTOXnUu+KGiUpYSZCdo6lzPrsOvM
+7uzs5iIrhPRQFAtBJGlJpoGW1YMGCYGXMmotCINIspQoBbuBkpKpnZF68rwczvn/
+vv//nO974kiwpdrTJo++XnW0+ezxoeSQ7cT7W7ARE3U5gvGNmBeub4qqeaDhN1TN
+xHiMZXBOkEWBVnCCJGQFJxnWRROAZRWJoChBwjlFISWAObE6PWhVIBtRCMJcVUd3
+6OBWZctnI+9dF3CAA1aEMoQCTdMUpADJMpAWKIIlOIGmRJaAAACCxlkOMpzIuFwy
+wFmCEGhOwYELISQuILvQup0gMCxLMhJCJIWDgBMUBgAX7ZIVloI4boFBaGhCPUR0
+fSioSoLPFwmZWNSJISGsStDqgvWZjVCuqiEDv6GbuqT7kFZnmn7eKjUjfos9A0X3
+Pxe3qGoy6iUqCEMjqOoaxgNESqZq2QKKIBmKZjnSicEGv2pAt2oRNONicbSsGBjG
+eC3k81kvC2g6UlGQ4EE5QdWjCWbIgFh0eLA60WZPtSVt3mTN05aakvZ/yg+bk1d2
+Fk78qe3f1UoN/ry2WE4Xzu5tvj12KHKkrKl7fstSwmp+Stcyb2zbx6ev0d21scoH
+uw+3xcvJU7aq3oXJ9o6e049mex3fx/svZOZkjzQUnTv49gbXl3lva42nOT49WlA5
+M8KXjfU6auIHBj7XLf/+VdFV4vg69mruZHjqm7eSnykN3gz8iC9NP97/4dPF/JUd
+5PXps8dijf2ZeYvzMf3pXGcceO5kJUYmrpaWD0fn+JY3I9VNnS225+8utToDA3cX
+jxd9qVoIOZIuF++JTmEFA3lLOfb2iLvnSmpJccBbch/fDl58XBuPlVU8axoiM9LP
+F2VEXnaM5mRlq5Pe9L6/yWEe9g==
+=0b+3
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/musicallyut
+
+==================================================================
+
