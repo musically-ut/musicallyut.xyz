@@ -49,7 +49,6 @@
     font-style: italic;
 }
 
-
 /*=============================================================================
  defaults
  */
@@ -99,12 +98,12 @@ a:hover {
         margin: auto;
         width: 95%;
     }
-    
+
     .site-header {
         float: right;
         width: 35%;
     }
-    
+
     .site-content {
         width: 65%;
     }
@@ -114,11 +113,11 @@ a:hover {
     #container {
         width: 100%;
     }
-    
+
     .site-header {
         width: 100%;
     }
-    
+
     .site-content {
         width: 100%;
     }
@@ -200,26 +199,34 @@ a:hover {
     font-family: 'League Gothic';
 }
 
-.project-name a {
-    font-size: 1rem;
-}
-
-.project-name a::after {
-    font-family: 'FontAwesome';
-    font-size: 0.75em;
-    content: ' \f08e';
-}
-
-
 /*=============================================================================*/
+
+.project-desc .details-list {
+    list-style: none;
+}
+
+.project-desc .details-list .devicons {
+    font-size: 1.5em;
+    line-height: 1em;
+    vertical-align: middle;
+}
 
 .places .item {
     font-size: 1.25rem;
     margin-left: 1em;
 }
 
-.project-desc .details-list {
-    list-style: none;
+.places .item .icon {
+    display: inline-block;
+    width: 1.5rem;
+}
+
+.places .item .devicons {
+    font-size: 1.25em;
+}
+
+.places .item .othericon {
+    font-size: 1em;
 }
 
 /*=============================================================================
