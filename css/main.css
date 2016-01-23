@@ -71,21 +71,23 @@ a {
     position: relative;
     text-decoration: none;
     color: #8b98bc;
-    border: 0px dotted currentColor;
-    border-bottom-width: 1px;
+    display: inline-block; /* Prevents breaking of links over lines, and gives it a width for animation. */
 }
 
-a {
-    -webkit-transition: all 250ms;
-    transition: all 250ms;
+a::after {
+    content: '';
+    position: absolute;
+    left: 50%; /* Start underline from the center of the link. */
+    right: 50%;
+    bottom: 0;
+    border-bottom: 1px solid #8b98bc;
+    -webkit-transition: left 500ms, right 500ms;
+    transition: left 500ms, right 500ms;
+}
+
+a:hover::after {
     left: 0;
-    top: 0;
-}
-
-a:hover {
-    left: .1em;
-    top: -.1em;
-    padding-bottom: .1em;
+    right: 0;
 }
 
 
@@ -245,4 +247,12 @@ a:hover {
 .site-footer .right {
     float: right;
     margin-right: 1em;
+}
+
+/*=============================================================================
+ * Icons extra
+ */
+
+.icon.fixed-padding {
+    padding: 0.2em;
 }
