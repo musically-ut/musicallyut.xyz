@@ -195,7 +195,6 @@ a:hover::after {
 
 ul.details-list li {
     white-space: nowrap;
-    overflow: hidden;
 }
 
 /*=============================================================================*/
