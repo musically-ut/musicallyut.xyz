@@ -171,6 +171,10 @@ a:hover::after {
     font-family: 'Roboto', sans-serif;
 }
 
+.leading-content a {
+    white-space: nowrap;
+}
+
 
 /*=============================================================================*/
 
@@ -188,6 +192,11 @@ a:hover::after {
     font-family: 'League Gothic';
 }
 
+
+ul.details-list li {
+    white-space: nowrap;
+    overflow: hidden;
+}
 
 /*=============================================================================*/
 
@@ -209,7 +218,7 @@ a:hover::after {
 
 .project-desc .details-list .devicons {
     font-size: 1.5em;
-    line-height: 1em;
+    line-height: 1.25em;
     vertical-align: middle;
 }
 
