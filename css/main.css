@@ -192,9 +192,15 @@ a:hover::after {
     font-family: 'League Gothic';
 }
 
+.follow-up-content .sub-header {
+    font-size: 1.5rem;
+    color: #503e52;
+}
+
 
 ul.details-list li {
-    white-space: nowrap;
+    /* white-space: nowrap; */
+    padding-left: 1.5em;
 }
 
 /*=============================================================================*/
@@ -216,6 +222,7 @@ ul.details-list li {
 }
 
 .project-desc .details-list .devicons {
+    margin-left: -1.5em;
     font-size: 1.5em;
     line-height: 1.25em;
     vertical-align: middle;
