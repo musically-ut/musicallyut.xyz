@@ -199,7 +199,6 @@ a:hover::after {
 
 
 ul.details-list li {
-    /* white-space: nowrap; */
     padding-left: 1.5em;
 }
 
