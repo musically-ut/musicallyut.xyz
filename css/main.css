@@ -200,6 +200,7 @@ a:hover::after {
 
 ul.details-list li {
     padding-left: 1.5em;
+    margin-bottom: 0.5em;
 }
 
 /*=============================================================================*/
@@ -221,10 +222,15 @@ ul.details-list li {
 }
 
 .project-desc .details-list .devicons {
+    /* Icon is moved to the left, in the space created by padding the li element (see above) */
     margin-left: -1.5em;
     font-size: 1.5em;
-    line-height: 1.25em;
     vertical-align: middle;
+}
+
+.project-desc .details-list .icon {
+    /* This is custom kerning for icon(s) not in .devicons. */
+    margin-left: -2.1em;
 }
 
 .places .item {
