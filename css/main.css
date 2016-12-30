@@ -202,15 +202,15 @@ a:hover::after {
 }
 
 
-ul.details-list li {
-    padding-left: 1.5em;
-    margin-bottom: 0.5em;
+.follow-up-content > .content {
+    margin-left: 1em;
 }
 
 /*=============================================================================*/
 
-.projects {
-    margin-left: 1em;
+ul.details-list li {
+    padding-left: 1.5em;
+    margin-bottom: 0.5em;
 }
 
 .project-name {
@@ -235,6 +235,14 @@ ul.details-list li {
 .project-desc .details-list .icon {
     /* This is custom kerning for icon(s) not in .devicons. */
     margin-left: -2.1em;
+}
+
+.project-desc .details-list .icon.fa {
+    /* This is for Font-Awesome icons only. */
+    width: 1.5em;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
 }
 
 .places .item {
