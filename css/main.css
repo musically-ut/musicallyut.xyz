@@ -221,6 +221,14 @@ ul.details-list li {
 
 /*=============================================================================*/
 
+.bold {
+    font-weight: 700;
+}
+
+.strike-out {
+    text-decoration: line-through;
+}
+
 .project-desc .details-list {
     list-style: none;
 }
